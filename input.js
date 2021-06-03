@@ -30,6 +30,14 @@ const handleUserInput = function (keyPress) {
     connection.write("Move: right")
     // connection.write("Move: up")  
   }
+  if (keyPress === "q") {
+    connection.write("Say: I'm getting longer")
+    // connection.write("Move: up")  
+  }
+  if (keyPress === "e") {
+    connection.write("Say: You so tiny")
+    // connection.write("Move: up")  
+  }
   
 };
 
